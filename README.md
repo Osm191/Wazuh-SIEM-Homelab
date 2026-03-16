@@ -24,30 +24,30 @@ The deployment consists of three main Wazuh components running on a single Ubunt
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Wazuh Installer Running](Wazuh%20installer%20starting%20successfullyjipg) | *Figure 1: Wazuh all-in-one installer executing successfully on Ubuntu 24.04* |
-| ![Installation Complete](password%20generation.jpg) | *Figure 2: Installation summary with admin credentials* |
-| ![Wazuh Manager Status](Wazuh%20Manager%20installed%20and%20runningjipg) | *Figure 3: Wazuh manager service active and running* |
+| ![](Wazuh%20installer%20starting%20successfully.jpg) | *Figure 1: Wazuh all-in-one installer executing successfully on Ubuntu 24.04* |
+| ![](password%20generation.jpg) | *Figure 2: Installation summary with admin credentials* |
+| ![](Wazuh%20Manager%20installed%20and%20running.jpg) | *Figure 3: Wazuh manager service active and running* |
 
 ### Elasticsearch Setup
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Elasticsearch Active](elastic%20search%20active%20setup.jpg) | *Figure 4: Elasticsearch service enabled and running* |
-| ![Elasticsearch Verified](Elastic%20search%20verified%20running%20with%20authenticat...) | *Figure 5: Elasticsearch connection verified via curl authentication* |
+| ![](elastic%20search%20active%20setup.jpg) | *Figure 4: Elasticsearch service enabled and running* |
+| ![](Elastic%20search%20verified%20running%20with%20authentication.jpg) | *Figure 5: Elasticsearch connection verified via curl authentication* |
 
 ### Dashboard State
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Dashboard Post-Install](Wazuh%20dashboard%20post-installation%20showing%20AP...) | *Figure 6: Dashboard post-installation with API/index errors (expected state)* |
-| ![Post-Installation Error State](Wazuh%20post%20installation%20state.jpg) | *Figure 7: Dashboard showing internal server error (API connection issue)* |
+| ![](Wazuh%20dashboard%20post-installation%20showing%20API%20connected%2C%20waiting%20for%20alerts.jpg) | *Figure 6: Dashboard post installation with API/index errors (expected state)* |
+| ![](Wazuh%20post%20installation%20state.jpg) | *Figure 7: Dashboard showing internal server error (API connection issue)* |
 
 ### Security Event Detection ✅
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Raw JSON Alerts](Raw%20JSON%20alert%20data%20showing%20Wazuh%20detecting...) | *Figure 8: Raw JSON alert data confirming Wazuh is detecting Apparmor denials* |
-| ![Formatted Alert Logs](Formatted%20alert%20logs%20displaying%20real-time%20security...) | *Figure 9: Formatted alert logs showing real-time security events including Apparmor denials and sudo commands* |
+| ![](Raw%20JSON%20alert%20data%20showing%20Wazuh%20detecting%20Apparmor%20denials%20and%20security%20events.jpg) | *Figure 8: Raw JSON alert data confirming Wazuh is detecting Apparmor denials* |
+| ![](Formatted%20alert%20logs%20displaying%20real-time%20security%20events%20including%20Apparmor%20denials.jpg) | *Figure 9: Formatted alert logs showing realtime security events including Apparmor denials and sudo commands* |
 
 ## 🔧 Installation Process
 
